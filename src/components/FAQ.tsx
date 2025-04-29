@@ -20,7 +20,7 @@ export default function FAQ() {
             answer: "<p class='w-full text-new-dark-300'>Yes, you can open multiple Demat accounts with different brokers. However, you must link each Demat account to a unique trading account, and maintaining multiple accounts may incur extra maintenance charges.</p>"
         }
     ];
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
     const toggleFAQ = (index: number) => {
         setActiveIndex(prevIndex => (prevIndex === index ? null : index));

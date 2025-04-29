@@ -1,26 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-new-green-300: #dff6d1;
+  --color-new-blue-300: #086099;
+  --color-new-dark-300: #5d5d5d;
+  --color-new-light-500: #fefefe;
+  --color-new-dark-500: #4f4f4f;
+  --color-new-green-500: #50a42a;
+  --color-new-blue-500: #0a2d47;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+section {
+  position: relative;
+  padding: 5.7% 3%;
+}
+nav {
+  padding: 8px 3%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.p-btn img {
+  position: absolute;
+}
+.copy {
+  transform: translate(-150%, 150%);
+  color: var(--color-new-blue-500);
+}
+.serv-btn:hover .copy {
+  transform: translate(0);
+  color: var(--color-light-blue-500);
+}
+.serv-btn:hover .first {
+  transform: translate(150%, -150%);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.label {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 62px;
+  color: var(--color-new-blue-500);
+  font-size: 20px;
+  font-weight: bold;
+  user-select: none;
+  pointer-events: none;
+  background-color: var(--color-new-green-300);
+  transform: scale(1) translateY(-50%);
+  transition: all 0.3s ease;
+}
+.inputs:focus ~ .label,
+.inputs:not(:placeholder-shown) ~ .label {
+  top: -20px;
+  transform: scale(0.7);
+  padding: 5px 10px;
+  left: 20px;
 }

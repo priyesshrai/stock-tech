@@ -3,7 +3,12 @@ import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 
 Chart.register(ArcElement, Tooltip, Legend);
 
-export const Charts = ({ investedAmount, totalValue, interestEarned }: any) => {
+interface ChartProps {
+  investedAmount: number;
+  interestEarned: number;
+}
+
+export const Charts = ({ investedAmount, interestEarned }: ChartProps) => {
 
   const data = {
     labels: ['Invested Amount', 'Interest Earned'],

@@ -190,7 +190,6 @@ export default function Calculator() {
                         <div className='w-full flex justify-center items-center h-full flex-col'>
                             <Charts
                                 investedAmount={investedAmount}
-                                totalValue={totalValue}
                                 interestEarned={interestEarned} />
 
                             <div className='w-full mt-5 flex flex-col gap-2 items-center'>

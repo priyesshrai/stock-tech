@@ -1,5 +1,5 @@
 import { Doughnut } from 'react-chartjs-2';
-import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
+import { Chart, ArcElement, Tooltip, Legend, ChartOptions } from 'chart.js';
 
 Chart.register(ArcElement, Tooltip, Legend);
 
@@ -9,28 +9,20 @@ interface ChartProps {
 }
 
 export const Charts = ({ investedAmount, interestEarned }: ChartProps) => {
-
   const data = {
     labels: ['Invested Amount', 'Interest Earned'],
     datasets: [
       {
         label: 'Amount ₹',
         data: [investedAmount, interestEarned],
-        backgroundColor: [
-          '#F57328',
-          '#5D74DD'
-        ],
-        borderColor: [
-          '#ffffff',
-          '#ffffff'
-        ],
+        backgroundColor: ['#F57328', '#5D74DD'],
+        borderColor: ['#ffffff', '#ffffff'],
         borderWidth: 1,
       },
     ],
-
   };
 
-  const options = {
+  const options: ChartOptions<'doughnut'> = {
     cutout: '50%',
     plugins: {
       legend: {
@@ -40,9 +32,8 @@ export const Charts = ({ investedAmount, interestEarned }: ChartProps) => {
   };
 
   return (
-    <div >
-      <Doughnut data={data} options={options} width={400} height={400}/>
+    <div>
+      <Doughnut data={data} options={options} width={400} height={400} />
     </div>
   );
 };
-

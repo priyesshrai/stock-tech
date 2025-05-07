@@ -13,12 +13,28 @@
 
 * {
   box-sizing: border-box;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    transform 0.4s ease-in-out;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  /* scrollbar-width: none; */
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  overflow: hidden;
+}
+
 section {
   position: relative;
   padding: 5.7% 3%;
+  overflow: hidden;
 }
 nav {
   padding: 8px 3%;
@@ -59,4 +75,22 @@ nav {
   transform: scale(0.7);
   padding: 5px 10px;
   left: 20px;
+}
+
+.layer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #dff6d18e;
+  backdrop-filter: blur(5px);
+  z-index: 2;
+}
+
+@media (width < 48rem) {
+  .menu-container {
+    transform: translateX(-100%);
+  }
+  .open-menu-container {
+    transform: translateX(0) !important;
+  }
 }

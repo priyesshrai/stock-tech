@@ -6,7 +6,7 @@ export default function Sponsor() {
         <section className='bg-new-light-500 w-full'>
             <div className='w-full relative flex gap-3 max-md:flex-col max-md:gap-10'>
                 <div className="relative lg:w-full max-md:w-full max-md:flex justify-center items-center">
-                    <img src="/assets/svg/about-02.svg" alt="hero" className='' />
+                    <img src="/assets/svg/about-02.svg" alt="hero" className='h-[450px]'  />
                 </div>
                 <div className="w-full relative">
                     <h2 className='text-[35px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>

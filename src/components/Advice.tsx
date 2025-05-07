@@ -25,7 +25,7 @@ export default function Advice() {
                         </div>
                         <div className="w-full relative p-8 bg-new-blue-500 rounded-2xl">
                             <div className="w-full flex flex-col gap-3">
-                                <img src="/assets/svg/student.svg" alt="" style={{ height: "160px" }} />
+                                <img src="/assets/svg/student-01.svg" alt="" style={{ height: "160px" }} />
                                 <h2 className='font-bold text-new-light-500 text-3xl text-center'>Students</h2>
                                 <p className='font-normal text-new-light-500 text-lg' style={{ lineHeight: "1.2" }}>
                                     Start small, start early. Grow wealth over time with smart habits.

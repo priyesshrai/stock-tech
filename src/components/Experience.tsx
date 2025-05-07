@@ -3,7 +3,7 @@ import React from 'react'
 export default function Experience() {
     return (
         <section className='w-full relative bg-new-blue-500'>
-            <div className="w-full relative grid grid-cols-3 gap-6">
+            <div className="w-full relative grid lg:grid-cols-3 md:grid-cols-2 gap-6 ">
                 <div className="w-full relative bg-new-light-500 rounded-2xl p-8">
                     <div className='w-full relative flex flex-col gap-3'>
                         <div className='w-full flex justify-center'>

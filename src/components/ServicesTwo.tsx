@@ -12,10 +12,10 @@ export default function ServicesTwo() {
                 </h2>
 
                 <div className='w-full mt-10 relative'>
-                    <div className='w-full grid grid-cols-5 gap-3'>
+                    <div className='w-full grid md:grid-cols-5 grid-cols-1 gap-3'>
                         <div className='col-span-3 w-full relative p-8 rounded-2xl bg-new-green-300 '>
-                            <div className='w-full flex gap-3.5 relative'>
-                                <div className='w-[50%] '>
+                            <div className='w-full flex gap-3.5 relative max-[550px]:flex-col'>
+                                <div className='w-[50%] max-md:w-full'>
                                     <h2 className='font-semibold text-new-blue-500 text-3xl'>Direct Stock Investment</h2>
                                     <p className='text-new-dark-300 mt-3 text-lg'>
                                         Buy and sell stocks with expert insights and real-time market support for informed decision-making.
@@ -33,7 +33,8 @@ export default function ServicesTwo() {
                                     </div>
                                 </div>
                                 <div className='flex-auto'>
-                                    <img src="/assets/svg/services-03.svg" alt="" className='ml-auto' />
+                                    <img src="/assets/svg/services-03.svg" alt="" 
+                                    className='md:ml-auto max-[550px]:mx-auto max-[550px]: mt-8' />
                                 </div>
                             </div>
                         </div>
@@ -79,8 +80,8 @@ export default function ServicesTwo() {
                         </div>
 
                         <div className='col-span-3 w-full relative p-8 rounded-2xl bg-new-green-300 '>
-                            <div className='w-full flex flex-row-reverse gap-3.5 relative'>
-                                <div className='w-[50%] '>
+                            <div className='w-full flex flex-row-reverse gap-3.5 relative max-[550px]:flex-col'>
+                                <div className='w-[50%] max-md:w-full '>
                                     <h2 className='font-semibold text-new-blue-500 text-3xl'>Portfolio Management</h2>
                                     <p className='text-new-dark-300 mt-3 text-lg'>
                                         Let professionals manage your investments with a strategic approach focused on long-term growth.
@@ -98,7 +99,7 @@ export default function ServicesTwo() {
                                     </div>
                                 </div>
                                 <div className='flex-auto'>
-                                    <img src="/assets/svg/services-04.svg" alt="" className='mr-auto' />
+                                    <img src="/assets/svg/services-04.svg" alt="" className='md:mr-auto max-[550px]:mx-auto max-[550px]: mt-8' />
                                 </div>
                             </div>
                         </div>

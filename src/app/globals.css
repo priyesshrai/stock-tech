@@ -16,7 +16,7 @@
   transition: background-color 0.3s ease, color 0.3s ease,
     transform 0.4s ease-in-out;
   font-family: "Inter", sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* scrollbar-width: none; */
 }
 
@@ -86,6 +86,44 @@ nav {
   z-index: 2;
 }
 
+@media (max-width:1170px) {
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 30px;
+  }
+}
+@media (max-width:460px) {
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 25px;
+    line-height: 1.1;
+  }
+  p{
+    font-size: 16px;
+    line-height: 1.1;
+  }
+  .txt{
+    font-size: 25px;
+  }
+  .calc > button{
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+}
+.faq-heading{
+  font-size: 20px !important;
+}
+
+
+canvas{
+  padding: 20px;
+  width: 400px;
+  height: 400px;
+}
 @media (width < 48rem) {
   .menu-container {
     transform: translateX(-100%);

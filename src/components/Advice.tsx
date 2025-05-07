@@ -10,7 +10,7 @@ export default function Advice() {
                 </h2>
 
                 <div className='w-full mt-12 relative'>
-                    <div className='w-full grid grid-cols-3 gap-5'>
+                    <div className='w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-5'>
                         <div className="w-full relative p-8 bg-new-blue-500 rounded-2xl">
                             <div className="w-full flex flex-col gap-5">
                                 <img src="/assets/svg/house-wife.svg" alt="" style={{ height: "160px" }} />

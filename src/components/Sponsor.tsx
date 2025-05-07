@@ -4,8 +4,8 @@ import Button from './Button'
 export default function Sponsor() {
     return (
         <section className='bg-new-light-500 w-full'>
-            <div className='w-full relative flex gap-3'>
-                <div className="w-full relative">
+            <div className='w-full relative flex gap-3 max-md:flex-col max-md:gap-10'>
+                <div className="relative lg:w-full max-md:w-full max-md:flex justify-center items-center">
                     <img src="/assets/svg/sponsor.svg" alt="hero" className='' />
                 </div>
                 <div className="w-full relative">
@@ -34,7 +34,7 @@ export default function Sponsor() {
                         Start your trading journey with confidence—powered by <strong className='text-new-green-500'>AngelOne</strong> and guided by us.
                     </p>
                     <div className='relative mt-10 w-full'>
-                        <Button name='Open Free Account' path='#' calssName='block w-[fit-content] border border-new-blue-500 py-5 px-8 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Open Free Account' path='#' calssName='block w-[fit-content] border border-new-blue-500 max-[396px]:px-5 max-[396px]:py-3 py-5 px-8 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
                 </div>
             </div>

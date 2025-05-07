@@ -124,14 +124,14 @@ export default function Calculator() {
 
     return (
         <section className='relative w-full bg-new-green-300'>
-            <div className='w-full relative flex gap-7'>
-                <div className="relative w-[68%]">
+            <div className='w-full relative flex gap-7 max-md:flex-col max-md:gap-10'>
+                <div className="relative w-[68%] max-md:w-full">
                     <h2 className='text-[40px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
                         Let&apos;s Calculate Your <strong className='text-new-green-500'>Return.</strong>
                         <img src="/assets/svg/return.svg" alt="growth" className='inline ml-3 mb-5' style={{ height: "45px" }} />
                     </h2>
 
-                    <div className='w-full mt-5 relative flex gap-5'>
+                    <div className='w-full mt-5 relative flex gap-5 calc'>
                         {tab.map((item, index) => (
                             <button
                                 key={index}
@@ -184,7 +184,7 @@ export default function Calculator() {
                 <div className="relative w-full">
                     <div className='w-full relative ' style={{ height: "100%" }}>
                         <div className='w-full flex justify-end'>
-                            <Button name='Invest Now' path='#' calssName='relative border border-new-blue-500 bg-new-blue-500 rounded-full py-2 px-5 text-new-light-500 font-bold text-xl cursor-pointer' />
+                            <Button name='Invest Now' path='#' calssName='max-md:hidden relative border border-new-blue-500 bg-new-blue-500 rounded-full py-2 px-5 text-new-light-500 font-bold text-xl cursor-pointer' />
                         </div>
 
                         <div className='w-full flex justify-center items-center h-full flex-col'>

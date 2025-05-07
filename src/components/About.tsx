@@ -4,7 +4,7 @@ import Button from './Button'
 export default function About() {
     return (
         <section className='relative w-full bg-new-light-500'>
-            <div className="w-full flex gap-3">
+            <div className="w-full relative flex gap-3 max-md:flex-col-reverse max-md:gap-10">
                 <div className="relative w-full">
                     <h2 className='text-[40px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
                         Smart <strong className='text-new-green-500'>Investing.</strong> Starts Here
@@ -22,10 +22,10 @@ export default function About() {
                         We don&apos;t just offer a platform to invest — we help you make smarter decisions and achieve your financial goals through <strong>direct equity, mutual funds, and portfolio management</strong> services.
                     </p>
                     <div className='relative mt-10 w-full'>
-                        <Button name='Join Us - Now' path='#' calssName='block w-[fit-content] border border-new-blue-500 py-5 px-8 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Join Us - Now' path='#' calssName='block w-[fit-content] border border-new-blue-500 py-5 px-8 max-[396px]:px-5 max-[396px]:py-2 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
                 </div>
-                <div className="relative w-full flex justify-center">
+                <div className="relative lg:w-full max-md:w-full max-md:flex justify-center items-center">
                     <img src="/assets/svg/about.svg" alt="hero" className='' />
                 </div>
             </div>

@@ -5,7 +5,7 @@ export default function Contact() {
         <section className='w-full relative bg-new-light-500'>
             <div className='w-full relative'>
                 <div className='w-full relative bg-new-green-300 rounded-2xl p-8'>
-                    <div className='w-full flex gap-4'>
+                    <div className='w-full relative flex gap-4 max-md:flex-col-reverse max-md:gap-10'>
                         <div className='relative w-full '>
                             <div className='w-full text-center'>
                                 <h2 className='text-4xl text-new-green-500 font-bold'>Contact Us</h2>

@@ -12,7 +12,7 @@ export default function Blogs() {
                 </h2>
 
                 <div className='w-full mt-12 relative'>
-                    <div className='w-full grid grid-cols-3 gap-5'>
+                    <div className='w-full grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1  gap-5'>
                         <div
                             className="w-full relative bg-new-light-500 rounded-2xl border border-new-dark-500 overflow-hidden">
                             <div className="w-full flex flex-col gap-2">

@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <section className='relative w-full bg-new-blue-500'>
-                <footer className='w-full relative grid grid-cols-[42%_1fr_1fr] gap-3'>
+                <footer className='w-full relative grid lg:grid-cols-[42%_1fr_1fr] max-md:grid-cols-1 gap-3 max-md:gap-10'>
                     <div className='w-full relative flex flex-col gap-5'>
                         <img src='/assets/logo/logo.png' className='w-1/2' />
 

@@ -4,19 +4,19 @@ import React, { useState } from 'react'
 export default function FAQ() {
     const faqDetails = [
         {
-            question: "<h2>What is a Demat account and why is it needed for investing?</h2>",
+            question: "<h2 class='faq-heading'>What is a Demat account and why is it needed for investing?</h2>",
             answer: "<p class='w-full text-new-dark-300'>A Demat (Dematerialized) account holds your shares and securities in an electronic format, making trading and investing safer and more convenient. It is mandatory for buying and selling stocks in India.</p>"
         },
         {
-            question: "<h2>What is SIP and how does it work?</h2>",
+            question: "<h2 class='faq-heading'>What is SIP and how does it work?</h2>",
             answer: "<p class='w-full text-new-dark-300'>Systematic Investment Plan (SIP) is a disciplined way to invest a fixed amount regularly in mutual funds. It helps build wealth over time by averaging the cost of investment and taking advantage of compounding.</p>"
         },
         {
-            question: "<h2>Is it better to invest in lumpsum or SIP?</h2>",
+            question: "<h2 class='faq-heading'>Is it better to invest in lumpsum or SIP?</h2>",
             answer: "<p class='w-full text-new-dark-300'>If you have a large amount available, lumpsum investment can be suitable in favorable market conditions. However, SIPs are recommended for disciplined investing, reducing market volatility risks through rupee cost averaging.</p>"
         },
         {
-            question: "<h2>Can I open multiple Demat accounts?</h2>",
+            question: "<h2 class='faq-heading'>Can I open multiple Demat accounts?</h2>",
             answer: "<p class='w-full text-new-dark-300'>Yes, you can open multiple Demat accounts with different brokers. However, you must link each Demat account to a unique trading account, and maintaining multiple accounts may incur extra maintenance charges.</p>"
         }
     ];
@@ -35,8 +35,8 @@ export default function FAQ() {
                 </h2>
 
                 <div className='w-full mt-12 relative'>
-                    <div className='w-full flex gap-3 '>
-                        <div className='relative w-[55%] flex flex-col gap-5'>
+                    <div className='w-full relative flex gap-3 max-md:flex-col-reverse max-md:gap-10'>
+                        <div className='relative w-[55%] max-md:w-full flex flex-col gap-5'>
                             {
                                 faqDetails.map((data, idx) => (
                                     <div
@@ -64,7 +64,7 @@ export default function FAQ() {
                                 ))
                             }
                         </div>
-                        <div className='relative w-[44%] flex justify-center '>
+                        <div className='relative w-[44%] max-md:w-full flex justify-center '>
                         <img src="/assets/svg/faq.svg" alt="hero" className='' />
                         </div>
                     </div>

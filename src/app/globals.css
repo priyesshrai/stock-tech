@@ -95,10 +95,10 @@ nav {
 }
 @media (max-width:460px) {
   h1{
-    font-size: 38px;
+    font-size: 32px;
   }
   h2{
-    font-size: 25px;
+    font-size: 23px;
     line-height: 1.1;
   }
   p{
@@ -106,7 +106,7 @@ nav {
     line-height: 1.1;
   }
   .txt{
-    font-size: 25px;
+    font-size: 23px;
   }
   .calc > button{
     padding: 5px 15px;
@@ -124,6 +124,9 @@ canvas{
   height: 400px;
 }
 @media (width < 48rem) {
+  section{
+    padding: 13.7% 6%;
+  }
   .menu-container {
     transform: translateX(-100%);
   }

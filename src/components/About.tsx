@@ -22,7 +22,7 @@ export default function About() {
                         We don&apos;t just offer a platform to invest — we help you make smarter decisions and achieve your financial goals through <strong>direct equity, mutual funds, and portfolio management</strong> services.
                     </p>
                     <div className='relative mt-10 w-full'>
-                        <Button name='Join Us - Now' path='#' calssName='block w-[fit-content] border border-new-blue-500 py-5 px-8 max-[396px]:px-5 max-[396px]:py-2 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Open Demat' path='https://a.aonelink.in/ANGOne/jAw6Hzr' calssName='block w-[fit-content] border border-new-blue-500 py-5 px-8 max-[396px]:px-5 max-[396px]:py-2 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
                 </div>
                 <div className="relative lg:w-full max-md:w-full flex justify-center items-center">

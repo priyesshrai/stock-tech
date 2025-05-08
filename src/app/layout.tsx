@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SmoothScrollProvider from "./SmoothScroll";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "StockTech Investment",
@@ -14,9 +16,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/assets/logo/logo.png" type="image/x-icon" />
+      </head>
       <body>
         <SmoothScrollProvider>
+          <Header/>
           {children}
+          <Footer/>
         </SmoothScrollProvider>
       </body>
     </html>

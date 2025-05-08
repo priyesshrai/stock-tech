@@ -21,7 +21,7 @@ export default function ServicesTwo() {
                                         Buy and sell stocks with expert insights and real-time market support for informed decision-making.
                                     </p>
                                     <div className='relative mt-8 w-full'>
-                                        <Link href="#"
+                                        <Link href="https://a.aonelink.in/ANGOne/jAw6Hzr"
                                             className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
                                         >
                                             <span className='font-bold text-xl text-new-blue-500'>EXPLORE NOW</span>
@@ -66,7 +66,7 @@ export default function ServicesTwo() {
                                     Open a free Demat account quickly and securely to start your investment journey with ease.
                                 </p>
                                 <div className='relative mt-11 w-full'>
-                                    <Link href="#"
+                                    <Link href="https://a.aonelink.in/ANGOne/jAw6Hzr"
                                         className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
                                     >
                                         <span className='font-bold text-xl text-new-blue-500'>REGISTER NOW</span>

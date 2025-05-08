@@ -4,13 +4,10 @@ import Button from './Button'
 export default function Services() {
     return (
         <section className='relative w-full bg-new-light-500'>
-            <div className="w-full relative flex gap-3 max-md:flex-col max-md:gap-10">
-                <div className="relative lg:w-full max-md:w-full max-md:flex justify-center items-center">
-                    <img src="/assets/svg/services-05.svg" alt="hero" className='' />
-                </div>
+            <div className="w-full relative flex gap-3 max-md:flex-col-reverse max-md:gap-10">
                 <div className="relative w-full">
                     <h2 className='text-[35px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
-                        Stock Market Training in <strong className='text-new-green-500'>Varanasi.</strong>
+                        Learn Stock Market in <strong className='text-new-green-500'>Varanasi.</strong>
                     </h2>
                     <p className='text-xl font-medium text-new-dark-300 mt-5'>
                         Empower your investment strategies with our comprehensive Stock Market Training in Varanasi.
@@ -24,6 +21,9 @@ export default function Services() {
                     <div className='relative mt-5 w-full'>
                         <Button name='Enquiry Now' path='#' calssName='block w-[fit-content] border border-new-blue-500 py-5 px-8 max-[396px]:px-5 max-[396px]:py-2 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
+                </div>
+                <div className="relative lg:w-full max-md:w-full flex justify-center items-center">
+                    <img src="/assets/svg/services-05.svg" alt="hero" className='' />
                 </div>
             </div>
         </section>

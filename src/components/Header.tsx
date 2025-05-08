@@ -21,21 +21,22 @@ export default function Header() {
         },
         {
             item: "About",
-            path: "about"
+            path: "/about"
         },
         {
-            item: "Investment",
-            path: "investment"
+            item: "Mutual Funds",
+            path: "/mutual-funds"
         },
         {
-            item: "Services",
-            path: "services"
+            item: "Learn",
+            path: "/learn"
         },
         {
             item: "Blogs",
-            path: "blogs"
+            path: "/blogs"
         },
     ]
+    
     return (
         <header className='w-full relative'>
             <nav className='w-full relative flex justify-between items-center bg-new-green-300 gap-5'>
@@ -69,7 +70,7 @@ export default function Header() {
                                 <li key={idx}>
                                     <Link href={item.path}
                                         className={` hover:text-new-green-500 font-medium text-lg 
-                                        ${path.startsWith(item.path) ? 'text-new-green-500' :
+                                        ${path === item.path ? 'text-new-green-500' :
                                                 'text-new-blue-300 max-md:text-new-light-500'} `}
                                     >
                                         {item.item}

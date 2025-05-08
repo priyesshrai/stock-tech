@@ -6,7 +6,6 @@ import Contact from '@/components/Contact'
 import Experience from '@/components/Experience'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
-import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import ServicesTwo from '@/components/ServicesTwo'
@@ -16,10 +15,9 @@ import React from 'react'
 export default function page() {
   return (
     <>
-      <Header />
       <Hero />
       <Sponsor/>
-      <About />
+      {/* <About /> */}
       <Services/>
       <Experience/>
       <ServicesTwo/>
@@ -28,7 +26,6 @@ export default function page() {
       <Blogs/>
       <FAQ/>
       <Contact/>
-      <Footer/>
     </>
   )
 }

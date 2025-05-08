@@ -81,7 +81,7 @@ nav {
   content: "";
   position: absolute;
   inset: 0;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
   z-index: 2;
 }
 
@@ -95,7 +95,7 @@ nav {
 }
 @media (max-width:460px) {
   h1{
-    font-size: 40px;
+    font-size: 38px;
   }
   h2{
     font-size: 25px;

@@ -3,10 +3,10 @@ import Button from './Button'
 
 export default function Hero() {
     return (
-        <section className='bg-new-green-300 w-full z-[5]' style={{padding:0}}>
-            <div className='absolute left-0 top-0 w-full h-full z-1 layer' style={{backgroundImage:"url('/assets/bg/bg.png')", backgroundPosition:"center", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}></div>
-            <div className='w-full relative flex gap-3 z-4 max-md:flex-col-reverse max-md:gap-10' 
-            style={{padding: "5.7% 3%", backgroundColor:"#dff6d1b0"}}>
+        <section className='bg-new-green-300 w-full z-[5]' style={{ padding: 0 }}>
+            {/* <div className='absolute left-0 top-0 w-full h-full z-1 layer' style={{backgroundImage:"url('/assets/bg/bg.png')", backgroundPosition:"center", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}></div> */}
+            <div className='w-full relative flex gap-3 z-4 max-md:flex-col max-md:gap-10'
+                style={{ padding: "5.7% 3%", backgroundColor: "#dff6d1b0" }}>
                 <div className='relative w-full pt-3'>
                     <h1 className='hero-heading text-[64px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
                         Master the Market with <span className='text-new-green-500'>Confidence.</span></h1>
@@ -29,8 +29,15 @@ export default function Hero() {
                     </div>
 
                 </div>
-                <div className='relative lg:w-full max-md:w-full max-md:flex justify-center items-center '>
-                    <img src="/assets/svg/hero.svg" alt="hero" className='' />
+                <div className='relative z-[5] lg:w-full max-md:w-full max-md:flex justify-center items-center '>
+                    <img src="/assets/bg/img.png" alt="hero" className=' z-[5] relative' />
+                    <div className='absolute left-0 top-0 w-full h-full z-1 layer' style={{ backgroundImage: "url('/assets/bg/bg.png')", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}></div>
+                    <div className='p-2 absolute md:w-[80px] md:h-[80px] w-[50px] h-[50px] bg-new-blue-500 rounded-xl top-[20%] z-10 left-[5%] '>
+                        <img src="/assets/svg/bull.svg" alt="hero" className=' z-[5] relative' />
+                    </div>
+                    <div className='p-2 absolute md:w-[80px] md:h-[80px] w-[50px] h-[50px] bg-new-blue-500 rounded-xl top-[2%] z-10 right-[6%]'>
+                        <img src="/assets/svg/bear.svg" alt="hero" className=' z-[5] relative' />
+                    </div>
                 </div>
             </div>
         </section>

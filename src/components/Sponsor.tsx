@@ -4,8 +4,8 @@ import Button from './Button'
 export default function Sponsor() {
     return (
         <section className='bg-new-light-500 w-full'>
-            <div className='w-full relative flex gap-3 max-md:flex-col max-md:gap-10'>
-                <div className="relative lg:w-full max-md:w-full max-md:flex justify-center items-center">
+            <div className='w-full h-full relative flex gap-3 max-md:flex-col max-md:gap-10'>
+                <div className="relative h-full lg:w-full max-md:w-full max-md:flex justify-center items-center">
                     <img src="/assets/svg/about-02.svg" alt="hero" className='h-[450px]'  />
                 </div>
                 <div className="w-full relative">

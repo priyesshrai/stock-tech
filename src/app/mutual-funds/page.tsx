@@ -1,4 +1,5 @@
 import Button from '@/components/Button'
+import Contact from '@/components/Contact'
 import React from 'react'
 
 export default function page() {
@@ -11,6 +12,7 @@ export default function page() {
             <HowTo />
             <WhyMutual />
             <WhyUs/>
+            <Contact/>
         </>
     )
 }

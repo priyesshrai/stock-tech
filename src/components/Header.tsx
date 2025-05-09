@@ -82,7 +82,7 @@ export default function Header() {
                         <li className='relative'>
                             <Button
                                 name='Contact Us'
-                                path='/'
+                                path='/contact'
                                 calssName='relative font-semibold flex items-center justify-center bg-new-blue-500 text-new-light-500 px-3 py-[8px] rounded-md hover:bg-new-blue-300 text-lg max-md:bg-new-green-500 max-md:hover:bg-new-green-300 max-md:mt-5'
                             />
                         </li>

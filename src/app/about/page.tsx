@@ -9,8 +9,8 @@ export default function AboutUs() {
             <AboutHeader />
             <About />
             <OurMission />
-            <OurVision/>
-            <Contact/>
+            <OurVision />
+            <Contact />
         </>
     )
 }
@@ -19,7 +19,7 @@ function AboutHeader() {
     return (
         <section className='bg-new-green-300 w-full z-[5]'>
             <div className='w-full relative flex gap-3 z-4 max-md:flex-col max-md:gap-10'>
-                <div className='relative w-full pt-3'>
+                <div className='relative w-full pt-3 flex flex-col justify-center'>
                     <h1 className='hero-heading text-[50px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
                         Empowering Your <span className='text-new-green-500'>Financial.</span>  Journey with Trust and Expertise
                     </h1>
@@ -28,24 +28,9 @@ function AboutHeader() {
                         At Stocktech Investments, we combine experience, honesty, and smart strategies to help you invest with confidence and grow your wealth responsibly.
                     </p>
 
-                    <div className='flex gap-3 mt-10'>
-                        <Button name='Contact' path='/contact'
-                            calssName='max-[396px]:px-5 max-[396px]:py-2 text-new-blue-500 border border-new-blue-500 py-3 px-10 text-2xl font-semibold rounded-md hover:bg-new-blue-500 hover:text-white transition duration-300 ease-in-out'
-                        />
-                        <Button name='Learn' path='#' calssName='max-[396px]:px-5 max-[396px]:py-2 border border-new-blue-500 py-3 px-10 text-2xl font-semibold rounded-md bg-new-blue-500 text-white hover:bg-new-blue-300 hover:border-new-blue-300' />
-
-                    </div>
-
                 </div>
                 <div className='relative z-[5] lg:w-full max-md:w-full max-md:flex justify-center items-center '>
-                    <img src="/assets/bg/img.png" alt="hero" className=' z-[5] relative' />
-                    <div className='absolute left-0 top-0 w-full h-full z-1 layer' style={{ backgroundImage: "url('/assets/bg/bg.png')", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}></div>
-                    <div className='p-2 absolute md:w-[80px] md:h-[80px] w-[50px] h-[50px] bg-new-blue-500 rounded-xl top-[20%] z-10 left-[5%] '>
-                        <img src="/assets/svg/bull.svg" alt="hero" className=' z-[5] relative' />
-                    </div>
-                    <div className='p-2 absolute md:w-[80px] md:h-[80px] w-[50px] h-[50px] bg-new-blue-500 rounded-xl top-[2%] z-10 right-[6%]'>
-                        <img src="/assets/svg/bear.svg" alt="hero" className=' z-[5] relative' />
-                    </div>
+                    <img src="/assets/bg/about-bg.svg" alt="hero" className=' z-[5] relative' />
                 </div>
             </div>
         </section>

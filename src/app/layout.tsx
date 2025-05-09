@@ -3,6 +3,7 @@ import "./globals.css";
 import SmoothScrollProvider from "./SmoothScroll";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Providers from "./NProgress";
 
 export const metadata: Metadata = {
   title: "StockTech Investment",
@@ -20,11 +21,13 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/assets/logo/logo.png" type="image/x-icon" />
       </head>
       <body>
-        <SmoothScrollProvider>
-          <Header/>
-          {children}
-          <Footer/>
-        </SmoothScrollProvider>
+        <Providers>
+          <SmoothScrollProvider>
+            <Header />
+            {children}
+            <Footer />
+          </SmoothScrollProvider>
+        </Providers>
       </body>
     </html>
   );

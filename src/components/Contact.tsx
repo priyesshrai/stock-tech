@@ -32,7 +32,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div className='relative w-full flex justify-center'>
-                            <img src="/assets/svg/contact.svg" alt="hero" className='' />
+                            <img src="/assets/svg/contact-02.svg" alt="hero" className='' />
                         </div>
                     </div>
                 </div>

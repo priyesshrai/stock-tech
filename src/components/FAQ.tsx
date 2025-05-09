@@ -65,7 +65,7 @@ export default function FAQ() {
                             }
                         </div>
                         <div className='relative w-[44%] max-md:w-full flex justify-center '>
-                        <img src="/assets/svg/faq.svg" alt="hero" className='' />
+                        <img src="/assets/svg/faq-02.svg" alt="hero" className='' />
                         </div>
                     </div>
                 </div>

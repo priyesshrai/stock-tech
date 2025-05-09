@@ -7,7 +7,7 @@ export default function About() {
             <div className="w-full relative flex gap-3 max-md:flex-col-reverse max-md:gap-10">
                 <div className="relative w-full">
                     <h2 className='text-[40px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
-                        Smart <strong className='text-new-green-500'>Investing.</strong> Starts Here
+                        Your Trusted Guide to <strong className='text-new-green-500'>Smart Investing.</strong>
                     </h2>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
                         At <strong>Stocktech Investments</strong>, we&apos;re more than just a stock market service — we&apos;re your partners in long-term financial growth.
@@ -26,7 +26,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="relative lg:w-full max-md:w-full flex justify-center items-center">
-                    <img src="/assets/svg/about-03.svg" alt="hero" className='' />
+                    <img src="/assets/bg/img.png" alt="hero" className='' />
                 </div>
             </div>
         </section>

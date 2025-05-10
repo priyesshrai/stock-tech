@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
     if (message.length > 1000) {
       return NextResponse.json({ message: "Message too long. Max 1000 characters." }, { status: 400 });
     }
-    const { data, error } = await resend.emails.send({
+    const {error } = await resend.emails.send({
       from: "Stocktech Investments <onboarding@resend.dev>",
       to: ["priyeshrai.dev@gmail.com"],
       subject: "New Contact Form Submission",

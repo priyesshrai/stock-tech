@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 export default function NotFound() {
   return (
     <section className='bg-new-green-300 w-full z-[5]'>

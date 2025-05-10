@@ -54,7 +54,7 @@ function AboutMutualFund() {
                         What Are <strong className='text-new-green-500'>Mutual Funds?</strong>
                     </h2>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1.1' }}>
-                        Mutual funds are professionally managed investment schemes where your money is pooled with money from other investors. This pool of money is then invested in a variety of financial assets like stocks, bonds, or a combination of both. These funds are managed by experienced fund managers who decide where and how to invest the pooled money based on the fund's goal.
+                        Mutual funds are professionally managed investment schemes where your money is pooled with money from other investors. This pool of money is then invested in a variety of financial assets like stocks, bonds, or a combination of both. These funds are managed by experienced fund managers who decide where and how to invest the pooled money based on the fund&apos;s goal.
 
                     </p>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1.1' }}>
@@ -231,13 +231,13 @@ function HowTo() {
                     </h2>
 
                     <p className='text-xl font-medium text-new-blue-300 mt-5' style={{ lineHeight: '1' }}>
-                        Getting started with Stocktech Investments is quick, smooth, and fully personalized. Here's how we help:
+                        Getting started with Stocktech Investments is quick, smooth, and fully personalized. Here&apos;s how we help:
                     </p>
 
                     <p className='text-lg font-light text-new-dark-300 mt-5 flex flex-col gap-2'>
                         <span className='flex gap-3 items-start leading-none'>
                             <img src="/assets/svg/check.svg" alt="angelone" className='inline h-[20px]' />
-                            Understand Your Financial GoalsWhether you're saving for retirement, education, a house, or simply growing your wealth, we help define your goals clearly.
+                            Understand Your Financial GoalsWhether you&apos;re saving for retirement, education, a house, or simply growing your wealth, we help define your goals clearly.
                         </span>
 
                     </p>
@@ -250,7 +250,7 @@ function HowTo() {
                     <p className='text-lg font-light text-new-dark-300 mt-5 flex flex-col gap-2'>
                         <span className='flex gap-3 items-start leading-none'>
                             <img src="/assets/svg/check.svg" alt="angelone" className='inline h-[20px]' />
-                            Choose the Right FundBased on your goal and risk level, we help you select funds that match your needs, whether it's aggressive growth or low-risk returns.
+                            Choose the Right FundBased on your goal and risk level, we help you select funds that match your needs, whether it&apos;s aggressive growth or low-risk returns.
                         </span>
                     </p>
                     <p className='text-lg font-light text-new-dark-300 mt-5 flex flex-col gap-2'>

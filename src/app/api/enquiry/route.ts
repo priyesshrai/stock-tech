@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ message: "Invalid contact number." }, { status: 400 });
     }
 
-    const { data, error } = await resend.emails.send({
+    const {error } = await resend.emails.send({
       from: "Stocktech Investments <onboarding@resend.dev>",
       to: ["priyeshrai.dev@gmail.com"],
       subject: "New Enquiry Form Submission regarding to Training.",

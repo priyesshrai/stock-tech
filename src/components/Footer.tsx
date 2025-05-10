@@ -14,33 +14,26 @@ export default function Footer() {
                         </div>
 
                         <div className='w-full flex gap-3 px-4'>
-                            <div
+                            <a
+                                href='https://www.instagram.com/stocktechinvestments/'
                                 className='cursor-pointer w-[50px] h-[50px] rounded-full bg-new-green-500 border border-new-light-500 flex items-center justify-center'>
                                 <img src="/assets/svg/insta.svg" alt="social media" />
-                            </div>
-                            <div
-                                className='cursor-pointer w-[50px] h-[50px] rounded-full bg-new-green-500 border border-new-light-500 flex items-center justify-center'>
-                                <img src="/assets/svg/yt.svg" alt="social media" />
-                            </div>
-                            <div
+                            </a>
+                            <a href='https://www.facebook.com/StockTech.Investments'
                                 className='cursor-pointer w-[50px] h-[50px] rounded-full bg-new-green-500 border border-new-light-500 flex items-center justify-center'>
                                 <img src="/assets/svg/fb.svg" alt="social media" />
-                            </div>
-                            <div
-                                className='cursor-pointer w-[50px] h-[50px] rounded-full bg-new-green-500 border border-new-light-500 flex items-center justify-center'>
-                                <img src="/assets/svg/twitter.svg" alt="social media" />
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div className='w-full flex flex-col gap-10'>
                         <h2 className='text-new-green-500 text-4xl font-bold'>Quick Links</h2>
                         <div className='w-full flex flex-col gap-1'>
-                            <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>Home</Link>
-                            <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>About Us</Link>
-                            <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>Mutual Gunds</Link>
+                            <Link href="/" className='text-new-light-500 text-lg hover:text-new-green-500'>Home</Link>
+                            <Link href="/about" className='text-new-light-500 text-lg hover:text-new-green-500'>About Us</Link>
+                            <Link href="/mutual-funds" className='text-new-light-500 text-lg hover:text-new-green-500'>Mutual Gunds</Link>
                             <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>Learn</Link>
                             <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>Blogs</Link>
-                            <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>Contact Us</Link>
+                            <Link href="/contact" className='text-new-light-500 text-lg hover:text-new-green-500'>Contact Us</Link>
                         </div>
                     </div>
                     <div className='w-full flex flex-col gap-10'>

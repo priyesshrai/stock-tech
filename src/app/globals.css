@@ -250,10 +250,10 @@ nav {
   .txt {
     font-size: 23px;
   }
-  .calc > button {
+  /* .calc > button {
     padding: 5px 15px;
     font-size: 15px;
-  }
+  } */
 }
 .faq-heading {
   font-size: 20px !important;

@@ -33,8 +33,8 @@ export default function ServicesTwo() {
                                     </div>
                                 </div>
                                 <div className='flex-auto'>
-                                    <img src="/assets/svg/services-03.svg" alt="" 
-                                    className='md:ml-auto max-[550px]:mx-auto max-[550px]: mt-8' />
+                                    <img src="/assets/svg/services-03.svg" alt=""
+                                        className='md:ml-auto max-[550px]:mx-auto max-[550px]: mt-8' />
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export default function ServicesTwo() {
                                     Get personalized mutual fund recommendations that match your financial goals and risk profile.
                                 </p>
                                 <div className='relative mt-11 w-full'>
-                                    <Link href="#"
+                                    <Link href="https://stockbroker.motilaloswal.com/motilal-oswal-financial-services-limited-vinay-agrawal-stock-broker-mahmoorganj-varanasi-182384/Home?fbclid=PAY2xjawKKnZxleHRuA2FlbQIxMQABp_u2uLkPey0pJ2oHRLZed2Sni1HPxjNOsBnGPkXPQlgusZqsXo4KKss1cSgD_aem_c4laLRom4WNe9r8xYyZKHA"
                                         className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
                                     >
                                         <span className='font-bold text-xl text-new-blue-500'>INVEST NOW</span>
@@ -87,7 +87,7 @@ export default function ServicesTwo() {
                                         Let professionals manage your investments with a strategic approach focused on long-term growth.
                                     </p>
                                     <div className='relative mt-8 w-full'>
-                                        <Link href="#"
+                                        <Link href="https://stockbroker.motilaloswal.com/motilal-oswal-financial-services-limited-vinay-agrawal-stock-broker-mahmoorganj-varanasi-182384/Home?fbclid=PAY2xjawKKnZxleHRuA2FlbQIxMQABp_u2uLkPey0pJ2oHRLZed2Sni1HPxjNOsBnGPkXPQlgusZqsXo4KKss1cSgD_aem_c4laLRom4WNe9r8xYyZKHA"
                                             className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
                                         >
                                             <span className='font-bold text-xl text-new-blue-500'>KNOW MORE</span>

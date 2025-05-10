@@ -7,7 +7,7 @@ import Loader from './Loader'
 interface ContactData {
     name: string,
     email: string,
-    contactNo: string, 
+    contactNo: string,
     message: string
 }
 
@@ -19,7 +19,6 @@ export default function Contact() {
         message: ""
     })
     const [loading, setLoading] = useState<boolean>(false)
-    const [error, setError] = useState(null)
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
@@ -48,14 +47,14 @@ export default function Contact() {
                             message: "",
                             contactNo: "",
                         });
-                        return response.data.message; 
+                        return response.data.message;
                     } else {
-                        throw new Error(response.data.message || "Unknown error occurred.");
+                        return response.data.message
+                        // throw new Error(response.data.message || "Unknown error occurred.");
                     }
                 })
                 .catch((error) => {
                     console.log("Error sending message", error.message);
-                    setError(error.message);
                     throw error;
                 })
                 .finally(() => {
@@ -64,7 +63,7 @@ export default function Contact() {
             {
                 loading: "Sending message...",
                 success: (message) => message,
-                error: (err) => `An error occurred while sending message.`
+                error: (err) => err
             }
         );
 

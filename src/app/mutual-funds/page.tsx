@@ -1,4 +1,5 @@
 import Button from '@/components/Button'
+import Calculator from '@/components/Calculator'
 import Contact from '@/components/Contact'
 import React from 'react'
 
@@ -11,8 +12,9 @@ export default function page() {
             <Mutual />
             <HowTo />
             <WhyMutual />
-            <WhyUs/>
-            <Contact/>
+            <WhyUs />
+            <Calculator />
+            <Contact />
         </>
     )
 }
@@ -60,7 +62,7 @@ function AboutMutualFund() {
                     </p>
 
                     <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='#' calssName='block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Invest Now' path='https://stockbroker.motilaloswal.com/motilal-oswal-financial-services-limited-vinay-agrawal-stock-broker-mahmoorganj-varanasi-182384/Home?fbclid=PAY2xjawKKnZxleHRuA2FlbQIxMQABp_u2uLkPey0pJ2oHRLZed2Sni1HPxjNOsBnGPkXPQlgusZqsXo4KKss1cSgD_aem_c4laLRom4WNe9r8xYyZKHA' calssName='block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
 
                 </div>
@@ -112,7 +114,7 @@ function TypeofMutual() {
                     </p>
 
                     <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='#' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Invest Now' path='https://stockbroker.motilaloswal.com/motilal-oswal-financial-services-limited-vinay-agrawal-stock-broker-mahmoorganj-varanasi-182384/Home?fbclid=PAY2xjawKKnZxleHRuA2FlbQIxMQABp_u2uLkPey0pJ2oHRLZed2Sni1HPxjNOsBnGPkXPQlgusZqsXo4KKss1cSgD_aem_c4laLRom4WNe9r8xYyZKHA' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
                 </div>
             </div>
@@ -271,7 +273,7 @@ function HowTo() {
                     </p>
 
                     <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='#' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Invest Now' path='https://stockbroker.motilaloswal.com/motilal-oswal-financial-services-limited-vinay-agrawal-stock-broker-mahmoorganj-varanasi-182384/Home?fbclid=PAY2xjawKKnZxleHRuA2FlbQIxMQABp_u2uLkPey0pJ2oHRLZed2Sni1HPxjNOsBnGPkXPQlgusZqsXo4KKss1cSgD_aem_c4laLRom4WNe9r8xYyZKHA' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
                 </div>
             </div>
@@ -367,7 +369,7 @@ function WhyMutual() {
                     </ul>
 
                     <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='#' calssName='block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Invest Now' path='https://stockbroker.motilaloswal.com/motilal-oswal-financial-services-limited-vinay-agrawal-stock-broker-mahmoorganj-varanasi-182384/Home?fbclid=PAY2xjawKKnZxleHRuA2FlbQIxMQABp_u2uLkPey0pJ2oHRLZed2Sni1HPxjNOsBnGPkXPQlgusZqsXo4KKss1cSgD_aem_c4laLRom4WNe9r8xYyZKHA' calssName='block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
                 </div>
 
@@ -459,7 +461,7 @@ function WhyUs() {
                     </ul>
 
                     <div className='relative mt-10 w-full'>
-                        <Button name='Start Now' path='#' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <Button name='Start Now' path='https://stockbroker.motilaloswal.com/motilal-oswal-financial-services-limited-vinay-agrawal-stock-broker-mahmoorganj-varanasi-182384/Home?fbclid=PAY2xjawKKnZxleHRuA2FlbQIxMQABp_u2uLkPey0pJ2oHRLZed2Sni1HPxjNOsBnGPkXPQlgusZqsXo4KKss1cSgD_aem_c4laLRom4WNe9r8xYyZKHA' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
                     </div>
                 </div>
 

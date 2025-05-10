@@ -50,10 +50,10 @@ function OurMission() {
                     </h2>
 
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
-                        Our mission is to help you take control of your financial journey with clarity, confidence, and the right guidance. Whether you're investing for the first time or planning your next move, we're here to make the process simpler and smarter for you.
+                        Our mission is to help you take control of your financial journey with clarity, confidence, and the right guidance. Whether you&apos;re investing for the first time or planning your next move, we&apos;re here to make the process simpler and smarter for you.
                     </p>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
-                        At Stocktech Investments, it's all about understanding your goals, your concerns, and your vision for the future. We work with you closely to create investment strategies that truly fit your lifestyle — offering support at every step, reducing risks, and helping you make decisions that lead to steady, long-term growth.
+                        At Stocktech Investments, it&apos;s all about understanding your goals, your concerns, and your vision for the future. We work with you closely to create investment strategies that truly fit your lifestyle — offering support at every step, reducing risks, and helping you make decisions that lead to steady, long-term growth.
                     </p>
 
                     <div className='relative mt-10 w-full'>
@@ -77,12 +77,12 @@ function OurVision() {
 
                     </p>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
-                        We see a future where you can achieve your financial dreams with less stress and more clarity. Whether it's saving for your child's education, buying your dream home, or retiring with peace of mind — we’re here to walk that path with you. With trust, transparency, and personalized care, we aim to give you not just results, but confidence in every financial step you take.
+                        We see a future where you can achieve your financial dreams with less stress and more clarity. Whether it&apos;s saving for your child&apos;s education, buying your dream home, or retiring with peace of mind — we&apos;re here to walk that path with you. With trust, transparency, and personalized care, we aim to give you not just results, but confidence in every financial step you take.
                     </p>
 
                 </div>
                 <div className="relative lg:w-full max-md:w-full flex justify-center items-center">
-                    <img src="/assets/svg/vision.svg" alt="hero" className='' />
+                    <img src="/assets/svg/vision.svg" alt="hero" />
                 </div>
             </div>
         </section>

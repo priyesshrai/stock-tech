@@ -6,7 +6,7 @@ import { Charts } from './Chart';
 export default function Calculator() {
     const [data, setData] = useState({
         amount: 5000,
-        withdrawal: 10000,
+        withdrawal: 5000,
         rate: 12,
         time: 10,
     });
@@ -152,14 +152,6 @@ export default function Calculator() {
     }
 
     useEffect(() => {
-        tab[activeTab].calculate();
-    }, [activeTab]);
-
-    function handleSubmit() {
-        tab[activeTab].calculate();
-    }
-
-    useEffect(() => {
         setData(prevData => ({
             ...prevData,
             amount: activeTab === 3 ? 500000 : 5000,
@@ -167,6 +159,13 @@ export default function Calculator() {
     }, [activeTab]);
 
 
+    useEffect(() => {
+        tab[activeTab].calculate();
+    }, [activeTab, data]);
+
+    function handleSubmit() {
+        tab[activeTab].calculate();
+    }
 
     return (
         <section className='relative w-full bg-new-green-300'>
